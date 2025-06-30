@@ -136,8 +136,8 @@ api_keys.py
 config.ini
 
 # Data files (optional - you might want to track some data)
-*.csv
-*.json
+#*.csv
+#*.json
 *.pkl
 *.pickle
 
