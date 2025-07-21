@@ -1,0 +1,59 @@
+# Xsentiment Project Presentation
+
+## Slide 1: Project Overview
+- **Project Name:** Xsentiment
+- **Purpose:** Twitter Sentiment Analysis Tool
+- **Key Features:**
+  - Real-time tweet collection
+  - Sentiment analysis (positive, negative, neutral)
+  - Sentiment visualization
+
+---
+
+## Slide 2: Key Components
+- **script.py:**
+  - Collects tweets using Twitter API
+  - Analyzes sentiment
+  - Stores results in a database
+- **visualize_tweets.py:**
+  - Generates sentiment visualizations using Matplotlib
+- **README.md:**
+  - Provides an overview
+  - Usage instructions
+
+---
+
+## Slide 3: Methodology
+1. **Data Collection:**
+   - Uses Tweepy to collect tweets
+   - Filters based on keywords
+2. **Sentiment Analysis:**
+   - Uses VADER for sentiment scoring
+   - Classifies tweets as positive, negative, or neutral
+3. **Visualization:**
+   - Plots sentiment over time
+   - Provides insights into public opinion
+
+---
+
+## Slide 4: How to Use
+- **Setup:**
+  - Install requirements with `pip install -r requirements.txt`
+  - Configure Twitter API keys
+- **Run Analysis:**
+  - Execute `python script.py` to collect and analyze tweets
+  - Use `python visualize_tweets.py` to generate visualizations
+
+---
+
+## Slide 5: Conclusion
+- Xsentiment offers insights into public sentiment in real-time
+- Useful for businesses, researchers, and social media analysts
+- Easily extendable for additional features and custom analyses
+
+---
+
+## Slide 6: Questions?
+- Open floor for any inquiries or feedback
+
+---
